@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../algotrading_qstrader/.idea/qsTraderTest.iml" filepath="$PROJECT_DIR$/../algotrading_qstrader/.idea/qsTraderTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../algotrading_qstrader/qstrader/.idea/qstrader.iml" filepath="$PROJECT_DIR$/../algotrading_qstrader/qstrader/.idea/qstrader.iml" />
     </modules>
   </component>
 </project>

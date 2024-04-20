@@ -3,6 +3,5 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../algotrading_qstrader" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../algotrading_qstrader/qstrader" vcs="Git" />
   </component>
 </project>
