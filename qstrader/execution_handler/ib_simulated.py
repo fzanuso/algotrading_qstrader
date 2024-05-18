@@ -38,6 +38,7 @@ class IBSimulatedExecutionHandler(AbstractExecutionHandler):
             0.5 * fill_price * quantity,
             max(1.0, 0.005 * quantity)
         )
+        commission = 0
         return PriceParser.parse(commission)
 
     def execute_order(self, event):

@@ -62,9 +62,9 @@ def run(config, testing, tickers, filename):
 if __name__ == "__main__":
     # Configuration data
     testing = False
+    filename = './config.yaml'
     config = settings.from_file(
-        settings.DEFAULT_CONFIG_FILENAME, testing
+        filename, testing
     )
     tickers = ["SPY"]
-    filename = None
     run(config, testing, tickers, filename)

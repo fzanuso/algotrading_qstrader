@@ -3,7 +3,7 @@ import os
 import pandas as pd
 import pytz
 
-from qstrader.alpha_model.fixed_signals import FixedSignalsAlphaModel
+from ..qstrader.alpha_model.fixed_signals import FixedSignalsAlphaModel
 from qstrader.asset.equity import Equity
 from qstrader.asset.universe.static import StaticUniverse
 from qstrader.data.backtest_data_handler import BacktestDataHandler

@@ -1,5 +1,8 @@
 from __future__ import print_function
 from datetime import datetime
+
+import pandas as pd
+
 from .compat import queue
 from .event import EventType
 from .price_handler.yahoo_daily_csv_bar import YahooDailyCsvBarPriceHandler
@@ -164,5 +167,9 @@ class TradingSession(object):
             )
         )
         if not testing:
+            equity: pd.Series = results['equity']
+            results['cum_returns']
+            equity.to_csv("equity_curve.csv")
+
             self.statistics.plot_results()
         return results
